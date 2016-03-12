@@ -11,7 +11,7 @@ const startTime = Date.now();
 let location = window.location; // for semistandard's sake
 impartial();
 window.setInterval(() => {
-  if (location != window.location) {
+  if (location !== window.location) {
     impartial();
     location = window.location;
   }
