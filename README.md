@@ -34,7 +34,7 @@ The script was initialy wrote using Greasemonkey to activate it, but if you're s
 ### Firefox
 
 * Install the [Greasemonkey extension](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-* [Click here to install the script](https://raw.githubusercontent.com/pldiiw/impartial-youtube/impartial-youtube.user.js)
+* [Click here to install the script](https://github.com/pldiiw/impartial-youtube/raw/master/impartial-youtube.user.js)
 * You're done
 
 ## Contributing
