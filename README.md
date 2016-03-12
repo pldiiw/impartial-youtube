@@ -13,7 +13,7 @@ Focus on the content, damn.
 ### Current
 
 * Hide all views counts
-* Hide subscribers counts ([not every ones right now](https://github.com/pldiiw/impartial-youtube/README.md#impartial-youtube#Features#Planned))
+* Hide subscribers counts ([not every ones right now](https://github.com/pldiiw/impartial-youtube#planned))
 * Add a '_Show comments_' button
 
 ### Planned
