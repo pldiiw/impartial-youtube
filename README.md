@@ -2,7 +2,7 @@
 Focus on the content, damn.  
 
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
-
+[![Code Climate](https://codeclimate.com/github/pldiiw/impartial-youtube/badges/gpa.svg)](https://codeclimate.com/github/pldiiw/impartial-youtube)
 
 ## Synopsis
 
