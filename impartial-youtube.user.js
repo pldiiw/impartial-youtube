@@ -7,6 +7,7 @@
 // ==/UserScript==
 
 'use strict';
+
 const startTime = Date.now();
 let location = window.location; // for semistandard's sake
 impartial();
@@ -116,7 +117,6 @@ function impartialWatchComments () {
     };
     document.querySelector('#comment-section-renderer')
       .insertBefore(showCommentsBtn, loadMoreBtn);
-
     return true;
   } else {
     return false;
