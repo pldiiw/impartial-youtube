@@ -30,12 +30,10 @@ function impartial () {
       impartialNav();
       if (startTime - Date.now() > 5000) clearInterval(navInterval);
     }, 100);
-  }
-  else if (location.pathname === '/watch') {
+  } else if (location.pathname === '/watch') {
     // tweaks on video page
     impartialWatch();
-  }
-  else if (location.pathname.slice(0, 5) === '/user' ||
+  } else if (location.pathname.slice(0, 5) === '/user' ||
            location.pathname.slice(0, 8) === '/channel') {
     // hide views counts and subscribers count on user's page, user's videos
     // page and channels page
@@ -59,8 +57,7 @@ function impartialNav () {
       if (location.pathname === '/' ||
           location.pathname === '/feed/subscriptions') {
         v.childNodes[0].style.display = 'none';
-      }
-      else if (location.pathname === '/results' ||
+      } else if (location.pathname === '/results' ||
                location.pathname === '/feed/trending' ||
                location.pathname === '/feed/history') {
         if (v.childNodes.length === 1) {

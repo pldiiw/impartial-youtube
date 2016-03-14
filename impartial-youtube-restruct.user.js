@@ -13,24 +13,19 @@ impartial();
 function impartial () {
   if (window.location.pathname === '/') {
     hideChildAtIndex('.yt-lockup-meta-info', 0);
-  }
-  else if (window.location.pathname === '/results') {
+  } else if (window.location.pathname === '/results') {
     forEachEltWithClass('.yt-lockup-meta-info', v => {
       let i = 1;
       if (v.children.length === 1) i = 0;
       v.children[i].style.display = 'none';
     });
-  }
-  else if (window.location.pathname === '/feed/subscriptions') {
+  } else if (window.location.pathname === '/feed/subscriptions') {
     hideChildAtIndex('.yt-lockup-meta-info', 0);
-  }
-  else if (window.location.pathname === '/feed/trending') {
+  } else if (window.location.pathname === '/feed/trending') {
     hideChildAtIndex('.yt-lockup-meta-info', 1);
-  }
-  else if (window.location.pathname === '/feed/history') {
+  } else if (window.location.pathname === '/feed/history') {
     hideChildAtIndex('.yt-lockup-meta-info', 0);
-  }
-  else if (window.location.pathname === '/watch') {
+  } else if (window.location.pathname === '/watch') {
     forEachEltWithClass('.view-count', v => v.style.display = 'none');
     document.querySelector('#watch8-sentiment-actions').style.display = 'none';
     document.querySelector('.yt-subscriber-count').style.display = 'none';
@@ -61,8 +56,7 @@ function impartial () {
     };
     document.querySelector('#comment-section-renderer')
       .insertBefore(showCommentsBtn, loadMoreBtn);
-  }
-  else if (/^\/(user|channel)/.test(window.location.pathname)) {
+  } else if (/^\/(user|channel)/.test(window.location.pathname)) {
     forEachEltWithClass('.view-count', v => v.style.display = 'none');
     hideChildAtIndex('.yt-lockup-meta-info', 0);
     forEachEltWithClass('.subscribed', v => v.style.display = 'none');
