@@ -2,15 +2,11 @@
 engines:
   duplication:
     enabled: true
-    exclude_fingerprints:
-    - cd7ff572008bc3046d64c2210e0173aa
     config:
       languages:
       - javascript
   eslint:
     enabled: true
-    exclude_fingerprints:
-    - c7466ab2a79396d00c19d1ec4b9dd86e
   fixme:
     enabled: true
 ratings:
